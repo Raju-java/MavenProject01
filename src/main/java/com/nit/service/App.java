@@ -16,7 +16,7 @@ public class App
     public static void main( String[] args )
     {
     	App app = new App();
-        System.out.println( "Sum of two numbers: "+app.sum(10, 20) );
+        app.multiple(10,20);	
 	System.out.println("Multiple of two numbers :"+app.multiple(10,20));
     }
 }
